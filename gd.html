@@ -16,7 +16,6 @@
 
         ga('create', 'UA-73082868-2', 'auto');
         ga('send', 'pageview');
-
     </script>
 
     <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
@@ -27,33 +26,40 @@
     <style>
         .parallax-container {
             height: 200px;
-        }   
-        .text-shadow{
+        }
+
+        .text-shadow {
             text-shadow: 1px 1px 1px #000;
         }
-        .page-title{
+
+        .page-title {
             position: absolute;
             bottom: 0;
             display: block;
             width: 100%;
         }
-        @media(max-width:480px){
-            .page-title{
+
+        @media(max-width:480px) {
+            .page-title {
                 font-size: 11vw;
             }
         }
-        p{
+
+        p {
             font-size: 16px;
         }
+
         .time-message,
-        .rsvp-message{
+        .rsvp-message {
             display: none;
         }
+
         .time-message--active,
-        .rsvp-message--active{
+        .rsvp-message--active {
             display: block;
         }
-        .date-time{
+
+        .date-time {
             margin-bottom: 0;
             font-size: 2.5rem;
         }
@@ -66,7 +72,7 @@
         <div class="parallax"><img src="img/header-3.jpg"></div>
         <h1 class="white-text text-shadow page-title">
             <div class="center">
-               Rehersal and Groom's Dinner
+                Rehersal and Groom's Dinner
             </div>
         </h1>
     </div>
@@ -77,7 +83,8 @@
                 <h2 id="date-time">June 9<sup>th</sup> @ 6pm</h2>
 
                 <p style="width:90%;margin: 0 auto;">
-                    We will be meeting at the Town Green to do a quick rehearsal. Immediatley following rehearsal, the Sexton family invites you to Dehn's Country Manor for an evening brunch.
+                    We will be meeting at the Town Green to do a quick rehearsal. Immediatley following rehearsal, the Sexton family invites
+                    you to Dehn's Country Manor for an evening brunch.
                 </p>
                 <p>
                     <strong>
@@ -135,13 +142,48 @@
         </div>
     </div>
 
+    <div class="container">
+        <div class="row">
+            <div class="col s12">
+                <h3>Family-Style Brunch Menu</h3>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col s12 m6">
+                <strong>Food</strong>
+                <ul>
+                    <li>Fresh-Cut Fruit</li>
+                    <li>Assorted Muffins and Breakfast Breads</li>
+                    <li>Herb and Cheddar Egg Scramble</li>
+                    <li>Assorted Quiche</li>
+                    <li>Crispy Hash Browns</li>
+                    <li>Corned Beef Hash</li>
+                    <li>Country Sausage</li>
+                    <li>Honey Brown Sugar Ham</li>
+                    <li>Applewood Smoked Bacon</li>
+                    <li>French Toast</li>
+                </ul>
+            </div>
+            <div class="col s12 m6">
+                <strong>Drinks</strong>
+                <ul>
+                    <li>Mimosa Bar</li>
+                    <li>Cocktail Bar</li>
+                    <li>Beer and Wine</li>
+                    <li>Coffee</li>
+                    <li>Tea</li>
+                    <li>Milk</li>
+                    <li>Juice</li>
+                    <li>Soda</li>                    
+                </ul>
+            </div>
+        </div>
+    </div>
     <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
     <script type="text/javascript" src="materialize/js/materialize.min.js"></script>
     <script>
         $(document).ready(function () {
-            $('.parallax').parallax();            
-
-            
+            $('.parallax').parallax();
         });
     </script>
 </body>
